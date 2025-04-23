@@ -35,6 +35,13 @@
     box-sizing: border-box;
 }
 
+.service-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  .service-link:visited {
+    color: inherit;
+  }
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 70px; /* Ajustar si la altura del header cambia */

@@ -26,15 +26,18 @@
                     <p class="section-subtitle" data-en="Comprehensive digital solutions to help your business grow" data-es="Soluciones digitales completas para ayudar a tu negocio a crecer">Comprehensive digital solutions to help your business grow</p>
                 </div>
                 <div class="services-grid">
-                    <div class="service-card">
+                    <a href="https://www.rompecabeza.cl/" target="_blank" rel="noopener noreferrer" class="service-link" >
+                    <div class="service-card" >
+                       
                         <div class="service-icon">
                             <i class="fas fa-laptop-code"></i>
                             <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#fafafa" d="M64 96c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 256-64 0 0-256L128 96l0 256-64 0L64 96zM0 403.2C0 392.6 8.6 384 19.2 384l601.6 0c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8L76.8 480C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
-                         
                         </div>
                         <h3 class="service-title" data-en="Web Development" data-es="Desarrollo Web">Web Development</h3>
                         <p class="service-description" data-en="Custom websites built with modern technologies that deliver exceptional user experiences" data-es="Sitios web personalizados construidos con tecnologías modernas que brindan experiencias de usuario excepcionales">Custom websites built with modern technologies that deliver exceptional user experiences</p>
                     </div>
+                    </a>
+                    <a href="https://www.rompecabeza.cl/" target="_blank" rel="noopener noreferrer" class="service-link">
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-mobile-alt"></i>
@@ -43,6 +46,8 @@
                         <h3 class="service-title" data-en="Mobile Apps" data-es="Aplicaciones Móviles">Mobile Apps</h3>
                         <p class="service-description" data-en="Native and cross-platform mobile applications designed for performance and usability" data-es="Aplicaciones móviles nativas y multiplataforma diseñadas para rendimiento y usabilidad">Native and cross-platform mobile applications designed for performance and usability</p>
                     </div>
+                    </a>
+                    <a href="https://www.rompecabeza.cl/" target="_blank" rel="noopener noreferrer" class="service-link" >
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-chart-line"></i>
@@ -51,13 +56,17 @@
                         <h3 class="service-title" data-en="Digital Marketing" data-es="Marketing Digital">Digital Marketing</h3>
                         <p class="service-description" data-en="Strategic marketing campaigns that drive traffic and convert visitors into customers" data-es="Campañas de marketing estratégicas que generan tráfico y convierten visitantes en clientes">Strategic marketing campaigns that drive traffic and convert visitors into customers</p>
                     </div>
+                    </a>
+                    <a href="https://www.rompecabeza.cl/" target="_blank" rel="noopener noreferrer" class="service-link" >
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-paint-brush"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#ffffff" d="M234.7 42.7L197 56.8c-3 1.1-5 4-5 7.2s2 6.1 5 7.2l37.7 14.1L248.8 123c1.1 3 4 5 7.2 5s6.1-2 7.2-5l14.1-37.7L315 71.2c3-1.1 5-4 5-7.2s-2-6.1-5-7.2L277.3 42.7 263.2 5c-1.1-3-4-5-7.2-5s-6.1 2-7.2 5L234.7 42.7zM46.1 395.4c-18.7 18.7-18.7 49.1 0 67.9l34.6 34.6c18.7 18.7 49.1 18.7 67.9 0L529.9 116.5c18.7-18.7 18.7-49.1 0-67.9L495.3 14.1c-18.7-18.7-49.1-18.7-67.9 0L46.1 395.4zM484.6 82.6l-105 105-23.3-23.3 105-105 23.3 23.3zM7.5 117.2C3 118.9 0 123.2 0 128s3 9.1 7.5 10.8L64 160l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L128 160l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L128 96 106.8 39.5C105.1 35 100.8 32 96 32s-9.1 3-10.8 7.5L64 96 7.5 117.2zm352 256c-4.5 1.7-7.5 6-7.5 10.8s3 9.1 7.5 10.8L416 416l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L480 416l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L480 352l-21.2-56.5c-1.7-4.5-6-7.5-10.8-7.5s-9.1 3-10.8 7.5L416 352l-56.5 21.2z"/></svg>
                         </div>
                         <h3 class="service-title" data-en="UI/UX Design" data-es="Diseño UI/UX">UI/UX Design</h3>
                         <p class="service-description" data-en="Beautiful, intuitive interfaces that enhance user engagement and satisfaction" data-es="Interfaces hermosas e intuitivas que mejoran la participación y satisfacción del usuario">Beautiful, intuitive interfaces that enhance user engagement and satisfaction</p>
                     </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -190,6 +199,7 @@
                 <div class="contact-wrapper">
                     <div class="contact-info">
                         <div class="contact-item">
+                            
                             <div class="contact-icon">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="20" width="22.5" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#fcfcfc" d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120zm8 80.4c3.5-6.9 6.7-13.8 9.6-20.6c.5-1.2 1-2.5 1.5-3.7l116-46.4C558.9 123.4 576 135 576 152l0 270.8c0 9.8-6 18.6-15.1 22.3L416 503l0-302.6zM137.6 138.3c2.4 14.1 7.2 28.3 12.8 41.5c2.9 6.8 6.1 13.7 9.6 20.6l0 251.4L32.9 502.7C17.1 509 0 497.4 0 480.4L0 209.6c0-9.8 6-18.6 15.1-22.3l122.6-49zM327.8 332c13.9-17.4 35.7-45.7 56.2-77l0 249.3L192 449.4 192 255c20.5 31.3 42.3 59.6 56.2 77c20.5 25.6 59.1 25.6 79.6 0zM288 152a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"/></svg>
