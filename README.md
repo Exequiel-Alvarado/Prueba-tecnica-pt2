@@ -105,18 +105,30 @@ Ahora Otra Opcion para clonar el repositorio
 Haz `click en Clone`.
 5. Luego acceder a `Visual Etudio Code`
 
-![alt text](/assets/image-6.png)
 
-**Paso a seguir para en VS Code**
-1. en terminal selecionamos `bash`
-2. ejecutamos el siguiente comando
-```bash
-npm install
-```
-3. para correrlo en la misma terminal ejecutamos el siguiente comando
-```bash
-npm run dev
-```
-4. hacemos clip en donde dice `http://localhost:3000` se abrira el Leandin Page.
 
+**Paso a seguir para en local WP**
+1. buscarmo el proyecto `clonado`
+2. ejecutamos el siguiente en `local wp`
+
+3. ![alt text](/assets/image-6.png)
+
+
+4. ahora lo podemos probar
+
+5. ![alt text](/assets/image-7.png)
+
+## El theme en WordPress
+
+6. ![alt text](/assets/image-8.png)
+
+
+
+7. ![alt text](/assets/image-9.png)
+
+
+## Responsivo & Instalado
+
+8. ![alt text](/assets/image-10.png)
+ 
 
