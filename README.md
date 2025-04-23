@@ -94,18 +94,18 @@ Ahora Otra Opcion para clonar el repositorio
 1. Abre `GitHub Desktop`
 2. Haz click en `File > Clone repository…` o usa el botón + en la esquina superior izquierda y elige `"Clone repository"`.
 
-![alt text](/assets/image-1.png)
+![alt text](/assets/image-4.png)
 
 3. Puedes buscar el repositorio si está en tu cuenta o pegar la `URL del repositorio`.
 - esta es la URL: https://github.com/Exequiel-Alvarado/Prueba-tecnica-pt2.git
 
-![alt text](/assets/image-2.png)
+![alt text](/assets/image-5.png)
 
 4. Elige la carpeta de destino donde se guardará el repositorio en tu computador.
 Haz `click en Clone`.
 5. Luego acceder a `Visual Etudio Code`
 
-![alt text](/assets/image-3.png)
+![alt text](/assets/image-6.png)
 
 **Paso a seguir para en VS Code**
 1. en terminal selecionamos `bash`
