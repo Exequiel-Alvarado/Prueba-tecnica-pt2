@@ -17,7 +17,7 @@ function pt1_enqueue_scripts() {
     // Hoja de estilo principal (style.css)
     wp_enqueue_style( 'pt1-style', get_stylesheet_uri());
     // Font Awesome CDN
-    wp_enqueue_style('pt1-styles', get_template_directory_uri() . '/assets/css/style.css');
+    wp_enqueue_style('pt1-styles', get_template_directory_uri() . '/assets/css/estilo.css');
     // Google Fonts Poppins
    
     // Tu JS (mueve tu scripts.js a assets/js/scripts.js)

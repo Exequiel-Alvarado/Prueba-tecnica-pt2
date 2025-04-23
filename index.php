@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="hero-image --border-radius">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/responsive-design-showcase.png" alt="Digital Agency Hero" class="rounded-lg shadow-xl">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/responsive-design-showcase.png" alt="Cruztarger.cl" class="rounded-lg shadow-xl">
       </div>
     </div>
   </section>

@@ -4,7 +4,7 @@
       <!-- … columnas de footer … -->
     </div>
     <div class="footer-bottom">
-      <p class="copyright" data-en="© 2025 Digital Agency. All rights reserved." data-es="© 2025 Agencia Digital. Todos los derechos reservados.">© 2025 Exequiel Alvarado. All rights reserved.</p>
+      <p class="copyright" data-en="© 2025 Exequiel Alvarado. All rights reserved." data-es="© 2025 Exequiel Alvarado. Todos los derechos reservados.">© 2025 Exequiel Alvarado. All rights reserved.</p>
     </div>
   </div>
 </footer>
