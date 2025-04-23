@@ -61,11 +61,11 @@ Transformar el código de la landing en la base de un theme funcional en WordPre
 
 1. ![alt text](/assets/image0.png)
 
-2. ![alt text](/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image-1.png)
+2. ![alt text](/assets/image-1.png)
 
 - selecionamos `WordPress` para agregarlo
 
-3. ![alt text](/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image-2.png)
+3. ![alt text](/assets/image-2.png)
 
 
 
@@ -74,7 +74,7 @@ Transformar el código de la landing en la base de un theme funcional en WordPre
 
 **Paso a seguir para Clonar Repositorio ideal dentro de wp_theme**
 **Donde se instalo Local WP**
-![alt text](/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image-3.png)
+![alt text](/assets/image-3.png)
 
 `Git`
 1. Abrir el termina de `Git Bash`
