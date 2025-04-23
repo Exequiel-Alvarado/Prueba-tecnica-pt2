@@ -117,8 +117,8 @@
                                     <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image.png" alt="Testimonial Author">
                                 </div>
                                 <div class="author-info">
-                                    <h4 class="author-name" data-en="Emily Rodriguez" data-es="Emily Rodriguez">Emily Rodriguez</h4>
-                                    <p class="author-title" data-en="Founder, Style Boutique" data-es="Fundadora, Style Boutique">Founder, Style Boutique</p>
+                                    <h4 class="author-name" data-en="Exequiel Alvarado" data-es="Exequiel Alvarado">Exequiel Alvarado</h4>
+                                    <p class="author-title" data-en="Developer Frontend" data-es="Desarrollador Fronted">Developer Frontend</p>
                                 </div>
                             </div>
                         </div>
