@@ -46,6 +46,7 @@
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-chart-line"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#ffffff" d="M353.8 54.1L330.2 6.3c-3.9-8.3-16.1-8.6-20.4 0L286.2 54.1l-52.3 7.5c-9.3 1.4-13.3 12.9-6.4 19.8l38 37-9 52.1c-1.4 9.3 8.2 16.5 16.8 12.2l46.9-24.8 46.6 24.4c8.6 4.3 18.3-2.9 16.8-12.2l-9-52.1 38-36.6c6.8-6.8 2.9-18.3-6.4-19.8l-52.3-7.5zM256 256c-17.7 0-32 14.3-32 32l0 192c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-192c0-17.7-14.3-32-32-32l-128 0zM32 320c-17.7 0-32 14.3-32 32L0 480c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32L32 320zm416 96l0 64c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-128 0c-17.7 0-32 14.3-32 32z"/></svg>
                         </div>
                         <h3 class="service-title" data-en="Digital Marketing" data-es="Marketing Digital">Digital Marketing</h3>
                         <p class="service-description" data-en="Strategic marketing campaigns that drive traffic and convert visitors into customers" data-es="Campañas de marketing estratégicas que generan tráfico y convierten visitantes en clientes">Strategic marketing campaigns that drive traffic and convert visitors into customers</p>
@@ -191,10 +192,11 @@
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-map-marker-alt"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="22.5" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#fcfcfc" d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120zm8 80.4c3.5-6.9 6.7-13.8 9.6-20.6c.5-1.2 1-2.5 1.5-3.7l116-46.4C558.9 123.4 576 135 576 152l0 270.8c0 9.8-6 18.6-15.1 22.3L416 503l0-302.6zM137.6 138.3c2.4 14.1 7.2 28.3 12.8 41.5c2.9 6.8 6.1 13.7 9.6 20.6l0 251.4L32.9 502.7C17.1 509 0 497.4 0 480.4L0 209.6c0-9.8 6-18.6 15.1-22.3l122.6-49zM327.8 332c13.9-17.4 35.7-45.7 56.2-77l0 249.3L192 449.4 192 255c20.5 31.3 42.3 59.6 56.2 77c20.5 25.6 59.1 25.6 79.6 0zM288 152a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"/></svg>
                             </div>
                             <div class="contact-text">
                                 <h3 data-en="Address" data-es="Dirección">Address</h3>
-                                <p data-en="123 Providencia, Chile, 12345" data-es="Providencia 123, Chile, 12345">123 DProvidencia, Chile, 12345</p>
+                                <p data-en="123 Providencia, Chile, 12345" data-es="Providencia 123, Chile, 12345">123 Providencia, Chile, 12345</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -210,6 +212,7 @@
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-phone"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#ffffff" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
                             </div>
                             <div class="contact-text">
                                 <h3 data-en="Phone" data-es="Teléfono">Phone</h3>
@@ -244,7 +247,7 @@
             <div class="footer-top">
                 <div class="footer-column">
                     <div class="footer-logo">
-                        <img src="assets/image.png" alt="Digital Agency Logo">
+                        <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image.png" alt="cruztarger.cl">
                     </div>
                     <p class="footer-description" data-en="We create stunning digital experiences that drive business growth" data-es="Creamos experiencias digitales impresionantes que impulsan el crecimiento empresarial">We create stunning digital experiences that drive business growth</p>
                 </div>
@@ -271,10 +274,18 @@
                 <div class="footer-column">
                     <h3 class="footer-title" data-en="Follow Us" data-es="Síguenos">Follow Us</h3>
                     <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i>
+
+                        </a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i>
+
+                        </a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i>
+
+                        </a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i>
+
+                        </a>
                     </div>
                 </div>
             </div>
