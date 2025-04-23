@@ -11,7 +11,7 @@
 <header class="header">
   <div class="container header-container">
     <div class="logo">
-      <p>Prueba Técnica</p>
+      <p>Prueba Técnica pt2</p>
     </div>
     <nav class="main-nav">
       <ul class="nav-list">

@@ -118,7 +118,7 @@
                                 </div>
                                 <div class="author-info">
                                     <h4 class="author-name" data-en="Exequiel Alvarado" data-es="Exequiel Alvarado">Exequiel Alvarado</h4>
-                                    <p class="author-title" data-en="Developer Frontend" data-es="Desarrollador Fronted">Developer Frontend</p>
+                                    <p class="author-title" data-en="Frontend Developer" data-es="Desarrollador Fronted">Frontend Developer</p>
                                 </div>
                             </div>
                         </div>
