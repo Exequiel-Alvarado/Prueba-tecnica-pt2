@@ -1,0 +1,890 @@
+/* Base Styles & Variables - Ajustados para Reflejar el Sitio de Referencia */
+:root {
+    /* Colores ajustados */
+    --primary-color: #3b82f6; /* Azul más brillante */
+    --primary-dark: #2563eb;  /* Azul oscuro para hover */
+    --secondary-color: #6b7280; /* Gris medio */
+    --text-color: #1f2937;     /* Gris más oscuro para texto principal */
+    --text-light: #6b7280;     /* Gris medio para subtítulos/texto secundario */
+    --text-dark: #111827;      /* Gris muy oscuro/negro para encabezados */
+    --bg-light: #f9fafb;       /* Gris muy claro para fondos de sección */
+    --bg-dark: #1f2937;      /* Gris oscuro para footer */
+    --white: #ffffff;
+    --black: #000000;
+    /* Escala de Grises ajustada */
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+
+    /* Layout - Ajustado */
+    --border-radius: 6px; /* Bordes ligeramente menos redondeados */
+    --box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); /* Sombra más sutil */
+    --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Sombra más grande */
+    --transition: all 0.2s ease-in-out; /* Transición más rápida */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px; /* Ajustar si la altura del header cambia */
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Mantener fuente principal */
+    line-height: 1.7; /* Ligeramente más espaciado */
+    color: var(--text-color);
+    background-color: var(--white);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px; /* Ancho estándar */
+    margin: 0 auto;
+    padding: 0 1rem; /* Padding horizontal reducido */
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color); /* Usar color primario para enlaces */
+    transition: var(--transition);
+}
+a:hover {
+    color: var(--primary-dark);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Evitar espacio extra bajo imágenes */
+}
+
+/* Botones - Estilo ajustado */
+.btn {
+    display: inline-block;
+    padding: 0.65rem 1.3rem; /* Padding ajustado */
+    font-size: 0.95rem; /* Fuente ligeramente más pequeña */
+    font-weight: 500;
+    border-radius: var(--border-radius); /* Usar variable ajustada */
+    cursor: pointer;
+    transition: var(--transition);
+    text-align: center;
+    border: 1px solid transparent; /* Base para borde */
+    box-shadow: var(--box-shadow); /* Añadir sombra base */
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    box-shadow: var(--box-shadow-lg); /* Sombra más grande en hover */
+    transform: translateY(-1px); /* Efecto sutil de elevación */
+}
+
+.btn-secondary {
+    background-color: var(--white);
+    color: var(--primary-color);
+    border-color: var(--gray-300); /* Borde gris claro */
+}
+
+.btn-secondary:hover {
+    background-color: var(--gray-100); /* Fondo gris muy claro en hover */
+    color: var(--primary-dark);
+    border-color: var(--gray-400);
+    box-shadow: var(--box-shadow); /* Mantener sombra sutil */
+}
+
+/* Cabeceras de Sección */
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    font-size: 1.8rem; /* Tamaño ajustado */
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--text-dark);
+}
+
+.section-subtitle {
+    font-size: 1rem; /* Tamaño ajustado */
+    color: var(--text-light);
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Header - Ajustes visuales */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95); /* Fondo semi-transparente */
+    backdrop-filter: blur(8px); /* Efecto blur */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* Sombra muy sutil */
+    z-index: 1000;
+    padding: 0.75rem 0; /* Padding reducido */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img { /* Mantener si se usa imagen */
+    height: 35px;
+}
+.logo p { /* Estilo para logo de texto */
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--text-dark);
+}
+
+.main-nav {
+    display: none; /* Oculto en móvil */
+}
+
+.nav-list {
+    display: flex;
+    gap: 1.25rem; /* Gap ajustado */
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--text-color);
+    padding: 0.5rem 0.25rem;
+    position: relative;
+    border-bottom: 2px solid transparent; /* Espacio para línea inferior */
+}
+.nav-link:hover,
+.nav-link.active { /* Estilo para hover y activo */
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color); /* Línea inferior */
+}
+.nav-link::after { display: none; } /* Quitar pseudo-elemento si no se usa */
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem; /* Gap reducido */
+}
+
+.lang-toggle {
+    background: none;
+    border: 1px solid var(--gray-300);
+    color: var(--text-light);
+    border-radius: 4px; /* Redondeo pequeño */
+    padding: 0.3rem 0.6rem; /* Padding ajustado */
+    font-weight: 500;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.lang-toggle:hover {
+    background-color: var(--gray-100);
+    color: var(--text-dark);
+    border-color: var(--gray-400);
+}
+
+.menu-toggle {
+    display: block; /* Visible en móvil */
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 28px; /* Tamaño ajustado */
+    height: 22px;
+    position: relative;
+    z-index: 1010;
+    padding: 0;
+}
+.menu-toggle .bar {
+    display: block;
+    width: 100%;
+    height: 2.5px; /* Barras más finas */
+    background-color: var(--text-dark);
+    margin: 5px 0;
+    transition: var(--transition);
+    border-radius: 3px;
+}
+
+/* Mobile Menu - MODIFICADO para no ser de pantalla completa */
+.main-nav.active {
+    display: flex; /* Usar flex para centrar los ítems */
+    flex-direction: column;
+    align-items: center; /* Centra los ítems horizontalmente */
+    /* justify-content: center; /* Eliminado: no es necesario para altura auto */
+
+    position: fixed;
+    /* AJUSTA ESTE VALOR (65px) a la altura REAL de tu header fijo */
+    top: 65px; /* <-- MODIFICADO: Aparece justo debajo del header */
+    left: 0;
+    width: 100%;
+    height: auto; /* <-- MODIFICADO: Altura automática según el contenido */
+    max-height: calc(100vh - 65px); /* <-- Añadido: Altura máxima para no desbordar */
+    overflow-y: auto; /* <-- Añadido: Permite scroll si el contenido excede el max-height */
+
+    background-color: rgba(255, 255, 255, 0.98); /* Mantener fondo y blur */
+    backdrop-filter: blur(5px);
+    z-index: 1005; /* Bajo el toggle */
+    padding: 1.5rem 1rem; /* <-- MODIFICADO: Ajustado el padding superior/inferior */
+    text-align: center; /* Centrar texto de los ítems */
+}
+.main-nav.active .nav-list {
+    flex-direction: column;
+    gap: 1.5rem; /* Gap ajustado */
+}
+.main-nav.active .nav-link {
+    font-size: 1.3rem; /* Mantener tamaño de fuente si te gusta */
+    color: var(--text-dark);
+    border-bottom: none; /* Sin línea inferior en móvil */
+    padding: 0.8rem 1rem; /* <-- Opcional: Ajusta el padding de cada link si se ven muy grandes */
+}
+.main-nav.active .nav-link:hover,
+.main-nav.active .nav-link.active {
+     color: var(--primary-color);
+     background-color: var(--gray-100); /* Fondo sutil en hover */
+     border-radius: var(--border-radius);
+}
+
+/* Animación del botón menú (X) */
+.menu-toggle.active .bar:nth-child(1) {
+    transform: translateY(7.5px) rotate(45deg);
+}
+.menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.menu-toggle.active .bar:nth-child(3) {
+    transform: translateY(-7.5px) rotate(-45deg);
+}
+
+/* Hero Section */
+.hero {
+    padding: 7rem 0 5rem; /* Padding ajustado */
+    background-color: var(--bg-light); /* Fondo gris claro */
+    overflow: hidden;
+}
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 580px;
+    text-align: center;
+}
+.hero-title {
+    font-size: 2.8rem; /* Tamaño ajustado */
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--text-dark);
+}
+.hero-text {
+    font-size: 1.05rem; /* Tamaño ajustado */
+    color: var(--text-light);
+    line-height: 1.7;
+}
+.hero-cta {
+    display: flex;
+    gap: 0.75rem; /* Gap reducido */
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hero-image {
+    order: -1; /* Imagen primero en móvil */
+    max-width: 480px;
+    width: 90%;
+    margin: 0 auto;
+}
+.hero-image img {
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow-lg); /* Sombra más pronunciada */
+}
+
+/* Services Section - Estilo de Tarjeta Ajustado */
+.services {
+    padding: 5rem 0;
+    background-color: var(--white); /* Fondo blanco */
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.75rem; /* Gap ajustado */
+}
+.service-card {
+    background-color: var(--white);
+    border: 1px solid var(--gray-200); /* Borde sutil */
+    border-radius: var(--border-radius);
+    box-shadow: none; /* Sin sombra por defecto */
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: var(--transition);
+}
+.service-card:hover {
+    transform: translateY(-5px); /* Elevación sutil */
+    box-shadow: var(--box-shadow-lg); /* Sombra en hover */
+    border-color: transparent; /* Ocultar borde en hover si se prefiere */
+}
+.service-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Icono más pequeño */
+    height: 60px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 50%;
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem; /* Icono más pequeño */
+}
+.service-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+.service-description {
+    color: var(--text-light);
+    font-size: 0.9rem; /* Descripción más pequeña */
+    line-height: 1.6;
+}
+
+/* Testimonials Section - Estilo Revisado */
+.testimonials {
+    padding: 5rem 0;
+    background-color: var(--bg-light);
+}
+.testimonial-carousel {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.testimonial-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.testimonial-card {
+    flex: 0 0 100%;
+    padding: 0 0.75rem; /* Espaciado entre tarjetas */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial-content { /* Caja de texto */
+    background-color: var(--white);
+    padding: 1.75rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow); /* Usar sombra base */
+    margin-bottom: 1.5rem;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+.testimonial-content::after { /* Flecha de burbuja */
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 20px;
+    height: 20px;
+    background-color: var(--white);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+.testimonial-text {
+    font-style: normal; /* Sin cursiva */
+    color: var(--text-color);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+.testimonial-author { /* Sección del autor */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    max-width: 600px;
+    justify-content: center; /* Centrar autor */
+    padding-left: 0; /* Quitar padding extra */
+}
+.author-image { /* Imagen del autor */
+    width: 50px; /* Tamaño ajustado */
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid var(--white); /* Borde opcional */
+    box-shadow: var(--box-shadow); /* Sombra sutil */
+}
+.author-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.author-info {
+      text-align: left; /* Texto del autor alineado a la izquierda */
+}
+.author-name {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+    color: var(--text-dark);
+}
+.author-title {
+    font-size: 0.85rem;
+    color: var(--text-light);
+}
+
+/* Controles del Carrusel - Revisados */
+.carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    position: static; /* Debajo del track */
+    width: 100%;
+    padding: 0 1rem;
+}
+.carousel-control { /* Botones Prev/Next */
+    background-color: var(--white);
+    color: var(--gray-500);
+    border: 1px solid var(--gray-300);
+    border-radius: 50%;
+    width: 36px; /* Tamaño ajustado */
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 0.9rem;
+    box-shadow: var(--box-shadow);
+    position: static; /* No absoluto */
+    transform: none;
+}
+.carousel-control:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-color: var(--primary-color);
+    box-shadow: var(--box-shadow-lg);
+}
+.carousel-control.prev,
+.carousel-control.next {
+      display: none; /* Ocultos en móvil por defecto */
+}
+
+/* Puntos de Navegación */
+#carouselDots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--gray-300);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.carousel-dot:hover {
+      background-color: var(--gray-400);
+}
+.carousel-dot.active {
+    background-color: var(--primary-color);
+    transform: scale(1.2); /* Punto activo más grande */
+}
+
+/* FAQ Section - Estilo Acordeón Ajustado */
+.faq {
+    padding: 5rem 0;
+    background-color: var(--white);
+}
+.faq-accordion {
+      max-width: 750px;
+      margin: 0 auto;
+      border: 1px solid var(--gray-200); /* Borde alrededor */
+      border-radius: var(--border-radius);
+      overflow: hidden;
+}
+.accordion-item {
+    margin-bottom: 0;
+    border: none;
+    border-bottom: 1px solid var(--gray-200); /* Separador */
+}
+.accordion-item:last-child {
+      border-bottom: none;
+}
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 1.25rem; /* Padding ajustado */
+    background-color: var(--white);
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1rem; /* Tamaño ajustado */
+    font-weight: 500;
+    color: var(--text-dark);
+    transition: background-color 0.2s ease;
+}
+.accordion-header:hover {
+    background-color: var(--gray-100);
+}
+.accordion-item.active .accordion-header {
+      background-color: var(--gray-100);
+      color: var(--primary-color); /* Título activo en color primario */
+}
+.accordion-icon {
+    transition: transform 0.3s ease;
+    color: var(--gray-500); /* Color del icono */
+    font-size: 0.9rem;
+}
+/* Rotación manejada por JS cambiando clase fa-plus/fa-minus */
+.accordion-item.active .accordion-icon {
+    color: var(--primary-color); /* Icono activo en color primario */
+    /* transform: rotate(45deg); Ya no es necesario si JS cambia el icono */
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease-out;
+    background-color: var(--white);
+}
+.accordion-content p {
+    padding: 0.5rem 1.25rem 1.25rem; /* Padding ajustado */
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0;
+}
+/* max-height se establece vía JS */
+
+
+/* Contact Section - Estilo Ajustado */
+.contact {
+    padding: 5rem 0;
+    background-color: var(--bg-light);
+}
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.contact-icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px; /* Icono más pequeño */
+    height: 45px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 50%;
+    font-size: 1.1rem;
+    margin-top: 3px;
+}
+.contact-text h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+.contact-text p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+/* Contenedor del formulario */
+.contact-form-container {
+      background-color: var(--white);
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow); /* Usar sombra base */
+      padding: 2rem 1.5rem; /* Padding ajustado */
+}
+.contact-form .form-group {
+    margin-bottom: 1.25rem;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.7rem 0.9rem; /* Padding ajustado */
+    border: 1px solid var(--gray-300); /* Borde gris claro */
+    border-radius: var(--border-radius);
+    font-family: inherit;
+    font-size: 0.95rem;
+    transition: var(--transition);
+    background-color: var(--white);
+    color: var(--text-color);
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--primary-color); /* Borde primario en foco */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3); /* Anillo de foco */
+}
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+.contact-form button[type="submit"] {
+      width: 100%; /* Botón de ancho completo */
+      margin-top: 0.5rem;
+}
+
+/* Footer - Estilo Ajustado */
+.footer {
+    background-color: var(--bg-dark); /* Usar variable de fondo oscuro */
+    color: var(--gray-300); /* Texto más claro */
+    padding: 4rem 0 1.5rem; /* Padding ajustado */
+}
+.footer-top {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.footer-logo {
+    margin-bottom: 1rem;
+}
+.footer-logo img {
+    height: 35px; /* Altura ajustada */
+    opacity: 0.9;
+}
+.footer-description {
+    color: var(--gray-400); /* Gris más claro para descripción */
+    font-size: 0.9rem;
+    max-width: 300px;
+    line-height: 1.6;
+}
+.footer-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--white); /* Título blanco */
+    margin-bottom: 1.25rem;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem; /* Gap ajustado */
+}
+.footer-links a {
+    color: var(--gray-400);
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+.footer-links a:hover {
+    color: var(--white);
+    padding-left: 4px; /* Efecto sutil en hover */
+}
+.social-links {
+    display: flex;
+    gap: 0.75rem; /* Gap reducido */
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px; /* Iconos más pequeños */
+    height: 36px;
+    background-color: var(--gray-700); /* Fondo gris más claro */
+    color: var(--gray-300);
+    border-radius: 50%;
+    transition: var(--transition);
+    font-size: 0.9rem;
+}
+.social-link:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+.footer-bottom {
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--gray-700); /* Borde más oscuro */
+    text-align: center;
+}
+.copyright {
+    color: var(--gray-500); /* Gris medio */
+    font-size: 0.85rem;
+}
+
+/* Media Queries (Manteniendo estructura responsiva) */
+@media (min-width: 576px) {
+    .container { padding: 0 1.5rem; }
+    .section-title { font-size: 2rem; }
+    .hero-title {
+        font-size: 3rem;
+    }
+    .service-card {
+        padding: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    section { padding: 5rem 0; } /* Padding estándar para secciones */
+    .main-nav {
+        display: block; /* Mostrar el menú de escritorio */
+    }
+    .menu-toggle {
+        display: none; /* Ocultar el toggle de hamburguesa */
+    }
+     /* Resetear estilos del overlay móvil para escritorio */
+     .main-nav.active {
+         display: block;
+         position: static;
+         height: auto;
+         width: auto;
+         background-color: transparent;
+         padding: 0;
+         overflow-y: visible;
+         text-align: left;
+         backdrop-filter: none;
+         max-height: none; /* Asegurarse de que no haya max-height en desktop */
+     }
+    .main-nav.active .nav-list { flex-direction: row; gap: 1.25rem; }
+    .main-nav.active .nav-link {
+        font-size: 0.95rem;
+        color: var(--text-color);
+        border-bottom: 2px solid transparent;
+        padding: 0.5rem 0.25rem;
+    }
+    .main-nav.active .nav-link:hover,
+    .main-nav.active .nav-link.active {
+        background-color: transparent;
+        border-radius: 0;
+        color: var(--primary-color);
+        border-bottom-color: var(--primary-color);
+    }
+
+    .hero-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left; /* Alinear texto a la izquierda */
+    }
+    .hero-content {
+        flex: 1;
+        max-width: 50%;
+        text-align: left; /* Alinear contenido a la izquierda */
+    }
+    .hero-cta {
+        justify-content: flex-start; /* Alinear botones a la izquierda */
+    }
+    .hero-image {
+        order: 2; /* Imagen a la derecha */
+        flex: 1;
+        max-width: 45%;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Testimonios - 2 tarjetas */
+    .testimonial-card { flex: 0 0 100%; padding: 0 0.75rem;  }
+    .carousel-control.prev, .carousel-control.next { display: flex; /* Mostrar botones */ }
+
+
+    .contact-wrapper {
+        flex-direction: row;
+        align-items: flex-start; /* Alinear inicio */
+        gap: 3rem;
+    }
+    .contact-info {
+        flex: 1;
+    }
+    .contact-form-container { /* Usar el contenedor */
+        flex: 1.2; /* Formulario un poco más ancho */
+    }
+
+    .footer-top {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem; /* Gap ajustado */
+    }
+}
+
+@media (min-width: 992px) {
+    .section-title {
+        font-size: 2.2rem; /* Ajustar tamaño */
+    }
+     .hero-title { font-size: 3.5rem; }
+
+    /* Testimonios - 3 tarjetas */
+    .testimonial-card { flex: 0 0 33.33%; padding: 0 1rem; }
+    .testimonial-carousel { max-width: 1140px; } /* Contenedor más ancho */
+
+
+    .services-grid {
+        grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+        gap: 1.5rem; /* Gap reducido */
+    }
+
+    .footer-top {
+        grid-template-columns: 1.5fr repeat(3, 1fr); /* Layout ajustado */
+        gap: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+      .container { max-width: 1140px; } /* Contenedor estándar grande */
+}
+
+/* Utilidades de Accesibilidad */
+.sr-only {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0);
+    white-space: nowrap; border-width: 0;
+}
