@@ -86,11 +86,11 @@
                             </div>
                             <div class="testimonial-author">
                                 <div class="author-image">
-                                    <img src="assets/image.png" alt="Testimonial Author">
+                                    <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image.png" alt="Testimonial Author">
                                 </div>
                                 <div class="author-info">
-                                    <h4 class="author-name" data-en="test1" data-es="test1">test1</h4>
-                                    <p class="author-title" data-en="Director " data-es="Director ">Director</p>
+                                    <h4 class="author-name" data-en="Josefina Lazo" data-es="Josefina Lazo">test1</h4>
+                                    <p class="author-title" data-en="Digital Agency Director" data-es="Directora de Agencia Digital ">Digital Agency Director</p>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                             </div>
                             <div class="testimonial-author">
                                 <div class="author-image">
-                                    <img src="assets/image.png" alt="Testimonial Author">
+                                    <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image.png" alt="Testimonial Author">
                                 </div>
                                 <div class="author-info">
                                     <h4 class="author-name" data-en="Michael Chen" data-es="Michael Chen">Michael Chen</h4>
@@ -114,7 +114,7 @@
                             </div>
                             <div class="testimonial-author">
                                 <div class="author-image">
-                                    <img src="assets/image.png" alt="Testimonial Author">
+                                    <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image.png" alt="Testimonial Author">
                                 </div>
                                 <div class="author-info">
                                     <h4 class="author-name" data-en="Emily Rodriguez" data-es="Emily Rodriguez">Emily Rodriguez</h4>
