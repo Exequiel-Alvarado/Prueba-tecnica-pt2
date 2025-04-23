@@ -29,6 +29,8 @@
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-laptop-code"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#fafafa" d="M64 96c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 256-64 0 0-256L128 96l0 256-64 0L64 96zM0 403.2C0 392.6 8.6 384 19.2 384l601.6 0c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8L76.8 480C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
+                         
                         </div>
                         <h3 class="service-title" data-en="Web Development" data-es="Desarrollo Web">Web Development</h3>
                         <p class="service-description" data-en="Custom websites built with modern technologies that deliver exceptional user experiences" data-es="Sitios web personalizados construidos con tecnologías modernas que brindan experiencias de usuario excepcionales">Custom websites built with modern technologies that deliver exceptional user experiences</p>
@@ -36,6 +38,7 @@
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-mobile-alt"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#ffffff" d="M0 64C0 28.7 28.7 0 64 0L384 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM256 448a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM384 64L64 64l0 320 320 0 0-320z"/></svg>
                         </div>
                         <h3 class="service-title" data-en="Mobile Apps" data-es="Aplicaciones Móviles">Mobile Apps</h3>
                         <p class="service-description" data-en="Native and cross-platform mobile applications designed for performance and usability" data-es="Aplicaciones móviles nativas y multiplataforma diseñadas para rendimiento y usabilidad">Native and cross-platform mobile applications designed for performance and usability</p>
@@ -197,6 +200,7 @@
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-envelope"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#ffffff" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
                             </div>
                             <div class="contact-text">
                                 <h3 data-en="Email" data-es="Correo">Email</h3>
