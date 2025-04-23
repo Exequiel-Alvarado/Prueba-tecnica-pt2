@@ -89,7 +89,7 @@
                                     <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image.png" alt="Testimonial Author">
                                 </div>
                                 <div class="author-info">
-                                    <h4 class="author-name" data-en="Josefina Lazo" data-es="Josefina Lazo">test1</h4>
+                                    <h4 class="author-name" data-en="Josefina Lazo" data-es="Josefina Lazo">Josefina Lazo</h4>
                                     <p class="author-title" data-en="Digital Agency Director" data-es="Directora de Agencia Digital ">Digital Agency Director</p>
                                 </div>
                             </div>
@@ -103,8 +103,8 @@
                                     <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image.png" alt="Testimonial Author">
                                 </div>
                                 <div class="author-info">
-                                    <h4 class="author-name" data-en="Michael Chen" data-es="Michael Chen">Michael Chen</h4>
-                                    <p class="author-title" data-en="CEO, Innovate Solutions" data-es="CEO, Innovate Solutions">CEO, Innovate Solutions</p>
+                                    <h4 class="author-name" data-en="Alexis Contreras" data-es="Alexis Contreras">Alexis Contreras</h4>
+                                    <p class="author-title" data-en="Technical Lead " data-es="Lider Técnico">Technical Lead</p>
                                 </div>
                             </div>
                         </div>
