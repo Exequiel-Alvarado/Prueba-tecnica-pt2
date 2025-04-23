@@ -54,13 +54,28 @@ Transformar el código de la landing en la base de un theme funcional en WordPre
 **Deben tener instalado lo siguiente**
 
 
-- `Node.js `- Instarlarlo de manera global .
-- `npm `- para ejecutar comando dentro del terminal.
+- `Local WP `- Instarlarlo de manera global .
 - `Visual Estudio Code `- Herramienta para ejecutar el proyecto.
+- `Pluyin PHP intelephense`- para poder correr php
+- en `VS Code` tiene que agregar lo siguiente
+
+1. ![alt text](/assets/image0.png)
+
+2. ![alt text](/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image-1.png)
+
+- selecionamos `WordPress` para agregarlo
+
+3. ![alt text](/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image-2.png)
+
+
+
 - `Git `- Para ocupar la terminal.
 - `Githud Desktop `- para poder Clonar la rama. 
 
-**Paso a seguir para Clonar Repositorio**
+**Paso a seguir para Clonar Repositorio ideal dentro de wp_theme**
+**Donde se instalo Local WP**
+![alt text](/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image-3.png)
+
 `Git`
 1. Abrir el termina de `Git Bash`
 2. Colocar el siguiente comando para selecionar la carpeta donde se va a guardar
@@ -69,7 +84,7 @@ cd ruta/a/mi/carpeta
 ```
 3. Luego Clonar el repositorio usando el siguiente comando `git clone`
 ```bash
-git clone https://github.com/Exequiel-Alvarado/Prueba-tecnica-pt1.git
+git clone https://github.com/Exequiel-Alvarado/Prueba-tecnica-pt2.git
 ```
 4. Luego ingresa a la carpeta del proyecto y clip secundario abrir con `VS Code`
 
@@ -82,7 +97,7 @@ Ahora Otra Opcion para clonar el repositorio
 ![alt text](/assets/image-1.png)
 
 3. Puedes buscar el repositorio si está en tu cuenta o pegar la `URL del repositorio`.
-- esta es la URL: https://github.com/Exequiel-Alvarado/Prueba-tecnica-pt1.git
+- esta es la URL: https://github.com/Exequiel-Alvarado/Prueba-tecnica-pt2.git
 
 ![alt text](/assets/image-2.png)
 
