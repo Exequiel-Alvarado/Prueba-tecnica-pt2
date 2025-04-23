@@ -13,7 +13,7 @@
                     </div>
                 </div>
                 <div class="hero-image --border-radius">
-                    <img src="assets/responsive-design-showcase.png" alt="Digital Agency Hero" class="rounded-lg shadow-xl">
+                    <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/responsive-design-showcase.png" alt="Digital Agency Hero" class="rounded-lg shadow-xl">
                 </div>
             </div>
         </section>
