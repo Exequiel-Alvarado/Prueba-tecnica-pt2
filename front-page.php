@@ -13,7 +13,7 @@
                     </div>
                 </div>
                 <div class="hero-image --border-radius">
-                    <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/responsive-design-showcase.png" alt="Digital Agency Hero" class="rounded-lg shadow-xl">
+                    <img src="/wp-content/themes/Prueba-tecnica-pt2/assets/responsive-design-showcase.png" alt="Digital Agency Hero" class="rounded-lg shadow-xl">
                 </div>
             </div>
         </section>
@@ -86,7 +86,7 @@
                             </div>
                             <div class="testimonial-author">
                                 <div class="author-image">
-                                    <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image.png" alt="Testimonial Author">
+                                    <img src="/wp-content/themes/Prueba-tecnica-pt2/assets/image.png" alt="Testimonial Author">
                                 </div>
                                 <div class="author-info">
                                     <h4 class="author-name" data-en="Josefina Lazo" data-es="Josefina Lazo">Josefina Lazo</h4>
@@ -100,7 +100,7 @@
                             </div>
                             <div class="testimonial-author">
                                 <div class="author-image">
-                                    <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image.png" alt="Testimonial Author">
+                                    <img src="/wp-content/themes/Prueba-tecnica-pt2/assets/image.png" alt="Testimonial Author">
                                 </div>
                                 <div class="author-info">
                                     <h4 class="author-name" data-en="Alexis Contreras" data-es="Alexis Contreras">Alexis Contreras</h4>
@@ -114,7 +114,7 @@
                             </div>
                             <div class="testimonial-author">
                                 <div class="author-image">
-                                    <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image.png" alt="Testimonial Author">
+                                    <img src="/wp-content/themes/Prueba-tecnica-pt2/assets/image.png" alt="Testimonial Author">
                                 </div>
                                 <div class="author-info">
                                     <h4 class="author-name" data-en="Exequiel Alvarado" data-es="Exequiel Alvarado">Exequiel Alvarado</h4>
@@ -257,7 +257,7 @@
             <div class="footer-top">
                 <div class="footer-column">
                     <div class="footer-logo">
-                        <img src="/wp-content/themes/Prueba-tecnica-pt2/pt1/assets/image.png" alt="cruztarger.cl">
+                        <img src="/wp-content/themes/Prueba-tecnica-pt2/assets/image.png" alt="cruztarger.cl">
                     </div>
                     <p class="footer-description" data-en="We create stunning digital experiences that drive business growth" data-es="Creamos experiencias digitales impresionantes que impulsan el crecimiento empresarial">We create stunning digital experiences that drive business growth</p>
                 </div>
